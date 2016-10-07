@@ -1,0 +1,16 @@
+{
+  "name": "koa-app",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node -r babel-register ./app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-preset-es2015-node": "^6.1.1",
+    "babel-register": "^6.14.0",
+    "koa": "^2.0.0"
+  }
+}
